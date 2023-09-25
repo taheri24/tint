@@ -5,14 +5,14 @@ import (
 	"context"
 	"errors"
 	"io"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"os"
 	"strconv"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/lmittmann/tint"
+	"github.com/taheri24/tint"
 )
 
 var faketime = time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)

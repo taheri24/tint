@@ -57,7 +57,7 @@ import (
 	"encoding"
 	"fmt"
 	"io"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"path/filepath"
 	"runtime"
 	"strconv"
