@@ -1,3 +1,3 @@
-module github.com/lmittmann/tint
+module github.com/taheri24/tint
 
 go 1.20
